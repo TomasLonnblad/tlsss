@@ -5,6 +5,16 @@ import { gsap } from "gsap";
 
 
 
+  return (
+    <h1 className="page-title">
+      <div className="line-wrap">
+        <div ref={line1} className="line">
+          {lineContent}
+        </div>
+
+
+
+
 export default function Home() {
 
 return (
