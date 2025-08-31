@@ -28,6 +28,31 @@ return (
 </button>
 
 
+
+
+
+
+    
+  return (
+    <p ref={line1} className="line">
+      A Simple example using{" "}
+      <a
+        href="https://greensock.com/gsap/"
+        style={{ fontWeight: "bold", textDecoration: "none" }}
+      >
+        GSAP
+      </a>{" "}
+      &{" "}
+      <a
+        href="https://www.npmjs.com/package/react-transition-group"
+        style={{ fontWeight: "bold", textDecoration: "none" }}
+      >
+        react-transition-group
+      </a>
+    </p>
+  );
+}
+
 <div 
 className="absolute -inset-[1px] rounded-md"
 style={{
