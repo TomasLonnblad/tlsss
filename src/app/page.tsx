@@ -1,4 +1,10 @@
 
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+
+
+
+
 export default function Home() {
 
 return (
